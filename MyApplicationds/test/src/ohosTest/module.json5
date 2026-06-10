@@ -1,0 +1,110 @@
+{
+  "module": {
+    "name": "test_test",
+    "type": "feature",
+    "deviceTypes": [
+      "phone"
+    ],
+
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.GET_WIFI_INFO",
+        "reason": "$string:wifi_info_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.SET_WIFI_INFO",
+        "reason": "$string:wifi_info_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:internet_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "reason": "$string:internet_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:location_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:location_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MANAGE_WIFI_CONNECTION",
+        "reason": "$string:manage_wifi_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MANAGE_ENTERPRISE_WIFI_CONNECTION",
+        "reason": "$string:enterprise_wifi_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_PEERS_MAC",
+        "reason": "$string:wifi_mac_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_CONFIG",
+        "reason": "$string:wifi_config_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.SET_WIFI_CONFIG",
+        "reason": "$string:wifi_config_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MANAGE_WIFI_HOTSPOT",
+        "reason": "$string:hotspot_permission_reason",
+        "usedScene": {
+          "abilities": ["TestAbility"],
+          "when": "inuse"
+        }
+      }
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false
+  }
+}

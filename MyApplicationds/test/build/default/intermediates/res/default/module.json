@@ -1,0 +1,77 @@
+{
+	"app":	{
+		"bundleName":	"com.example.myapplication",
+		"vendor":	"example",
+		"versionCode":	1000000,
+		"versionName":	"1.0.0",
+		"icon":	"$media:layered_image",
+		"label":	"$string:app_name",
+		"apiReleaseType":	"Release",
+		"compileSdkVersion":	"6.1.1.125",
+		"targetAPIVersion":	60002022,
+		"minAPIVersion":	60002022,
+		"compileSdkType":	"HarmonyOS",
+		"targetMinorAPIVersion":	0,
+		"targetPatchAPIVersion":	0,
+		"appEnvironments":	[],
+		"bundleType":	"app",
+		"buildMode":	"release",
+		"debug":	false,
+		"iconId":	16777231,
+		"labelId":	16777218
+	},
+	"module":	{
+		"name":	"test",
+		"type":	"entry",
+		"description":	"$string:module_desc",
+		"mainElement":	"TestAbility",
+		"deviceTypes":	["phone"],
+		"deliveryWithInstall":	true,
+		"installationFree":	false,
+		"pages":	"$profile:main_pages",
+		"requestPermissions":	[{
+				"name":	"ohos.permission.INTERNET",
+				"reason":	"$string:internet_permission_reason",
+				"usedScene":	{
+					"abilities":	["TestAbility"],
+					"when":	"inuse"
+				},
+				"reasonId":	16777222
+			}],
+		"abilities":	[{
+				"name":	"TestAbility",
+				"srcEntry":	"./ets/testability/TestAbility.ets",
+				"description":	"$string:TestAbility_desc",
+				"icon":	"$media:layered_image",
+				"label":	"$string:TestAbility_label",
+				"startWindowIcon":	"$media:startIcon",
+				"startWindowBackground":	"$color:start_window_background",
+				"exported":	true,
+				"skills":	[{
+						"entities":	["entity.system.home"],
+						"actions":	["ohos.want.action.home"]
+					}],
+				"descriptionId":	16777216,
+				"iconId":	16777231,
+				"labelId":	16777217,
+				"startWindowIconId":	16777234,
+				"startWindowBackgroundId":	16777232
+			}],
+		"extensionAbilities":	[{
+				"name":	"TestBackupAbility",
+				"srcEntry":	"./ets/testbackupability/TestBackupAbility.ets",
+				"type":	"backup",
+				"exported":	false,
+				"metadata":	[{
+						"name":	"ohos.extension.backup",
+						"resource":	"$profile:backup_config",
+						"resourceId":	16777235
+					}]
+			}],
+		"packageName":	"test",
+		"virtualMachine":	"ark13.0.1.0",
+		"compileMode":	"esmodule",
+		"dependencies":	[],
+		"descriptionId":	16777225
+	}
+}

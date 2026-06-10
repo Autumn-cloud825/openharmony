@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "智能鱼缸"
+    },
+    {
+      "name": "module_desc",
+      "value": "智能鱼缸应用，用于监控和控制鱼缸设备"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "智能鱼缸"
+    },
+    {
+      "name": "wifi_info_permission_reason",
+      "value": "需要获取WiFi信息以连接智能鱼缸设备"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "需要网络通信以与鱼缸设备进行数据交互"
+    },
+    {
+      "name": "bluetooth_permission_reason",
+      "value": "需要蓝牙权限以连接RK2206开发板"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "需要位置权限以扫描WiFi网络"
+    },
+    {
+      "name": "manage_wifi_permission_reason",
+      "value": "需要WiFi管理权限以连接和断开WiFi网络"
+    },
+    {
+      "name": "enterprise_wifi_permission_reason",
+      "value": "需要企业WiFi管理权限以管理WiFi网络连接"
+    },
+    {
+      "name": "wifi_mac_permission_reason",
+      "value": "需要获取MAC地址权限以扫描WiFi设备"
+    },
+    {
+      "name": "wifi_config_permission_reason",
+      "value": "需要WiFi配置权限以设置WiFi网络"
+    },
+    {
+      "name": "hotspot_permission_reason",
+      "value": "需要热点管理权限以开启WiFi接入点模式"
+    }
+  ]
+}

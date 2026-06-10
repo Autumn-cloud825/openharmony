@@ -1,0 +1,28 @@
+{
+  "modulePathMap": {
+    "test": "D:\\MyApplicationds\\test"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\MyApplicationds",
+  "nodeModulesPath": "D:\\MyApplicationds\\test\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "test",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [
+    "D:\\MyApplicationds\\test\\build\\default\\generated\\r\\default\\ResourceTable.ts"
+  ],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "D:\\MyApplicationds\\test\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\MyApplicationds\\test\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}
